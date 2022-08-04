@@ -6,31 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <div
       id="mainContainer"
-      class="flex items-center justify-center h-screen bg-darkGrayishBlue"
+      class="flex items-center justify-center h-screen bg-darkBlue"
     >
       <div
         id="cardContainer"
-        class="h-96 w-1/2 bg-grayishBlue rounded-md flex flex-col justify-center items-center"
+        class="w-[35rem] bg-darkGrayishBlue rounded-md flex flex-col justify-center items-center mx-4"
       >
-        <h2 id="textContainer--title">Advice Number 111</h2>
-        <p id="textContainer--quote">Example Quote from API</p>
-      </div>
+        <div class="text-neonGreen font-manrope mt-8">
+          <h2 class="tracking-[.30em] text-xs">
+            ADVICE #<span id="advice-number" class="tracking-[.30em]">111</span>
+          </h2>
+        </div>
+        <div
+          class="text-lightCyan font-manrope font-[400] text-center my-4 mx-2"
+        >
+          <p
+            id="textContainer--quote"
+            class="text-2xl mx-[3rem] md:mx-[4.5rem]"
+          >
+            It is easy to sit up and take notice, what's difficult is getting up
+            and taking action.
+          </p>
+        </div>
 
-      <!-- <div
-        id="textContainer"
-        class="container flex-col justify-center items-center"
-      >
+        <div
+          id="dividerContainer"
+          class="my-4 mx-2 flex justify-center items-center"
+        >
+          <img
+            src="images/pattern-divider-mobile.svg"
+            alt="pattern-divider-mobile"
+            class="block md:hidden"
+          />
+          <img
+            src="images/pattern-divider-desktop.svg"
+            alt="pattern-divider-desktop"
+            class="hidden md:block"
+          />
+        </div>
 
+        <button
+          class="bg-neonGreen w-[50px] h-[50px] my-4 mx-2 rounded-full flex justify-center items-center relative -mb-[25px] cursor-pointer"
+        >
+          <img
+            src="images/icon-dice.svg"
+            alt="dice-icon"
+            class="absolute w-[20px] h-[20px]"
+          />
+        </button>
       </div>
-      <div id="dividerContainer">
-        <img src="images/pattern-divider-mobile.svg" />
-        <img class="hidden" src="images/pattern-divider-desktop.svg" />
-      </div> -->
     </div>
     <script src="script.js"></script>
   </body>

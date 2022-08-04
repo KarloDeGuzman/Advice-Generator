@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
+    fontFamily: {
+      manrope: ["Outfit", "sans-serif"],
+    },
     extend: {
       colors: {
         lightCyan: "hsl(193, 38%, 86%)",
