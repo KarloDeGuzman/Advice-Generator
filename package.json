@@ -1,0 +1,25 @@
+{
+  "name": "advice-generator",
+  "version": "1.0.0",
+  "description": "a simple random advice generator through the use of Advice Slip API. A project based from Frontend Mentor. :D",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarloDeGuzman/Advice-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarloDeGuzman/Advice-Generator/issues"
+  },
+  "homepage": "https://github.com/KarloDeGuzman/Advice-Generator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.7"
+  }
+}
