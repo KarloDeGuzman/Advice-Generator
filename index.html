@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Advice-Generator</title>
   </head>
   <body>
     <div
@@ -24,20 +24,17 @@
         class="w-[35rem] bg-darkGrayishBlue rounded-md flex flex-col justify-center items-center mx-4"
       >
         <div class="text-neonGreen font-manrope mt-8">
-          <h2 class="tracking-[.30em] text-xs">
-            ADVICE #<span id="advice-number" class="tracking-[.30em]">111</span>
+          <h2 class="tracking-[.30em] text-xs uppercase">
+            advice #<span id="advice-number" class="tracking-[.30em]"></span>
           </h2>
         </div>
         <div
-          class="text-lightCyan font-manrope font-[400] text-center my-4 mx-2"
+          class="text-lightCyan font-manrope font-[700] text-center my-4 mx-2"
         >
           <p
             id="textContainer--quote"
             class="text-2xl mx-[3rem] md:mx-[4.5rem]"
-          >
-            It is easy to sit up and take notice, what's difficult is getting up
-            and taking action.
-          </p>
+          ></p>
         </div>
 
         <div
@@ -57,6 +54,7 @@
         </div>
 
         <button
+          id="advice-generator"
           class="bg-neonGreen w-[50px] h-[50px] my-4 mx-2 rounded-full flex justify-center items-center relative -mb-[25px] cursor-pointer"
         >
           <img
